@@ -60,4 +60,4 @@ client.on(Events.InteractionCreate, async i => {
   } catch (e) { await i.reply({ content: 'Error – check channel IDs', ephemeral: true }); }
 });
 
-client.login('MTQ2OTA4NzMzMjEzMjE5MjUxMw.GQHru7.eEB6AJq7sjkkBfdMH76I1_gHq2NjwmN4c3Co6s');
+client.login('YOUR_BOT_TOKEN_HERE');
